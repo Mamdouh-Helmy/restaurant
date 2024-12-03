@@ -17,6 +17,7 @@ import SelectBranch from "./pages/SelectBranch";
 import BranchDetails from "./pages/BranchDetails";
 import Loading from "./components/Loading";
 import WhatsApp from "./components/WhatsApp";
+import NotFound from "./components/NotFound";
 
 const CustomToastContainer = styled(ToastContainer)`
   .Toastify__toast {
@@ -50,6 +51,7 @@ function App() {
   const router = createBrowserRouter(
     isMobile
       ? [
+        { path: "*", element: <NotFound /> },
           { path: "/", element: <Home /> },
           { path: "/login", element: <Login /> },
           { path: "/signup", element: <Signup /> },
@@ -67,6 +69,7 @@ function App() {
             path: "/",
             element: <Layout />,
             children: [
+              { path: "*", element: <NotFound /> },
               { path: "/", element: <Home /> },
               { path: "/login", element: <Login /> },
               { path: "/signup", element: <Signup /> },
