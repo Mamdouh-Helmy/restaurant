@@ -50,7 +50,7 @@ function App() {
   const router = createBrowserRouter(
     isMobile
       ? [
-          { path: "/", element: <Home /> },
+          { path: "/restaurant", element: <Home /> },
           { path: "/login", element: <Login /> },
           { path: "/signup", element: <Signup /> },
           { path: "/forgotpassword", element: <ForgotPassword /> },
@@ -67,7 +67,7 @@ function App() {
             path: "/",
             element: <Layout />,
             children: [
-              { path: "/", element: <Home /> },
+              { path: "/restaurant", element: <Home /> },
               { path: "/login", element: <Login /> },
               { path: "/signup", element: <Signup /> },
               { path: "/forgotpassword", element: <ForgotPassword /> },

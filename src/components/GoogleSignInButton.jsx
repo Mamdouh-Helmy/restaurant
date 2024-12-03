@@ -29,7 +29,7 @@ const GoogleSignInButton = () => {
     setLoading(true);
     try {
       await loginWithGoogle();
-      navigate("/");
+      navigate("/restaurant");
       toast.success("تم تسجيل الدخول بنجاح.");
     } catch {
       toast.error("فشل تسجيل الدخول باستخدام Google.");

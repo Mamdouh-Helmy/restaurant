@@ -102,7 +102,7 @@ export default function Pickup() {
           "success"
         );
         setSelectedDetail(null);
-        navigate("/");
+        navigate("/restaurant");
       } else {
         Swal.fire(
           currentTexts.cancelledTitle || "Cancelled!",
