@@ -86,7 +86,7 @@ export default function Contact() {
                     <div
                       className={`container mx-auto px-4 py-1 cursor-pointer duration-[0.3s] border-b-[1px] border-b-[#d7d7d7] hover:bg-[#e7e7e7] 
                     `}
-                      onClick={() => navigate(`restaurant/branch/${branch.name}`)}
+                      onClick={() => navigate(`/restaurant/branch/${branch.name}`)}
                     >
                       <button className="block text-[14px] font-medium py-2 border-none">
                         {highlightText(branch.name, searchQuery)}{" "}
