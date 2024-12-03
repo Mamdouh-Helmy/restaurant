@@ -76,6 +76,7 @@ export default function PeoplesComments({ check, handelSheck }) {
           confirmButtonText: currentTexts.btn,
         });
         toast.success(currentTexts.successTitle);
+        handelSheck(false);
       } catch (error) {
         toast.error(error);
       }
