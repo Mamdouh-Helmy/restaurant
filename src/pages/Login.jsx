@@ -37,7 +37,7 @@ export default function Login() {
     setLoading(true);
     try {
       await login(email, password);
-      navigate("/");
+      navigate("/restaurant");
       toast.success("تم تسجيل الحساب بنجاح!");
     } catch {
       toast.error("البريد الإلكتروني أو كلمة السر غير صحيحة.");

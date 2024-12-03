@@ -3,13 +3,13 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_KEY,
-  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_PROJECT_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID,
-  measurementId: import.meta.env.VITE_MEASUREMENT_ID
+  apiKey: "AIzaSyBMkzlS3oy_mJHQSkyKfUnkjVWljwNJOJ4",
+  authDomain: "restaurant-d5367.firebaseapp.com",
+  projectId: "restaurant-d5367",
+  storageBucket: "restaurant-d5367.appspot.com",
+  messagingSenderId: "644030724674",
+  appId: "1:644030724674:web:a33a7eb36042f6959ecbdb",
+  measurementId: "G-N72TL5CMTD",
 };
 
 const app = initializeApp(firebaseConfig);
