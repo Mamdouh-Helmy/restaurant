@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+label {
+  display: block;
+}
+button {
+  display: block;
+}
+a {
+  display: block;
+  width: fit-content;
+  cursor: pointer;
+}
+
+button,
+input {
+  border: 2px solid #333;
+}
+
+body {
+  position: relative;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////// */
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.slider-container {
+  display: none;
+}
+@media (max-width: 768px) {
+  .slider-container {
+    display: block;
+  }
+}
+.swal-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  @media (max-width: 767px) {
+    font-size: 19px;
+  }
+}
+.swal-content {
+  color: #666;
+  margin-bottom: 10px;
+}
+div:where(.swal2-container) .swal2-html-container {
+  @media (max-width: 767px) {
+    font-size: 16px !important;
+  }
+}
+.swal-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.swal-input-label {
+  font-size: 14px;
+  font-weight: normal;
+  color: #555;
+}
+div:where(.swal2-container) .swal2-input::placeholder {
+  @media (max-width: 767px) {
+    font-size: 14px !important;
+  }
+}
+div:where(.swal2-container) .swal2-input {
+  @media (max-width: 767px) {
+    height: 2.4em !important;
+    padding: 0 0.75em;
+  }
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.swal-confirm-button,
+.swal-cancel-button {
+  font-size: 14px !important;
+  color: white !important;
+  padding: 10px 40px !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+.swal2-title {
+  @media (max-width: 767px) {
+    font-size: 19px !important;
+  }
+}
+div:where(.swal2-container) button:where(.swal2-styled) {
+  @media (max-width: 767px) {
+    font-size: 19px !important;
+    padding: 10px 60px !important;
+  }
+}
+
+.loading-text {
+  font-size: 24px;
+  color: #657a63;
+  display: inline-block;
+  position: relative;
+}
+
+.loading-text::before {
+  content: ".";
+  position: absolute;
+  right: -20px;
+  animation: dot-appear 1s steps(1) infinite;
+}
+
+@keyframes dot-appear {
+  0% {
+    content: "";
+  }
+  33% {
+    content: ".";
+  }
+  66% {
+    content: "..";
+  }
+  88% {
+    content: "...";
+  }
+  100% {
+    content: "...";
+  }
+}
+.arrow{
+  display: none;
+}
+/* .custom-swal-popup {
+  z-index: 40000 !important; 
+} */
