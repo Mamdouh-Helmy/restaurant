@@ -14,7 +14,7 @@ export default function Banner() {
   const navigate = useNavigate();
 
   const handelNavgatie = () => {
-    navigate("/contact");
+    navigate("/restaurant/contact");
   };
 
   const texts = {

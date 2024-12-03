@@ -49,7 +49,7 @@ export default function SelectAddress() {
   const currentTexts = texts[language];
 
   const handelNavgatie = (method) => {
-    navigate("/selectBranch", { state: { method } });
+    navigate("/restaurant/selectBranch", { state: { method } });
   };
 
   const handelSheck = () => {
