@@ -51,7 +51,6 @@ function App() {
   const router = createBrowserRouter(
     isMobile
       ? [
-        { path: "*", element: <NotFound /> },
           { path: "/", element: <Home /> },
           { path: "/login", element: <Login /> },
           { path: "/signup", element: <Signup /> },
@@ -63,13 +62,13 @@ function App() {
           { path: "/contact", element: <Contact /> },
           { path: "/selectBranch", element: <SelectBranch /> },
           { path: "/branch/:branchName", element: <BranchDetails /> },
+          { path: "*", element: <NotFound /> },
         ]
       : [
           {
             path: "/",
             element: <Layout />,
             children: [
-              { path: "*", element: <NotFound /> },
               { path: "/", element: <Home /> },
               { path: "/login", element: <Login /> },
               { path: "/signup", element: <Signup /> },
@@ -81,6 +80,7 @@ function App() {
               { path: "/contact", element: <Contact /> },
               { path: "/selectBranch", element: <SelectBranch /> },
               { path: "/branch/:branchName", element: <BranchDetails /> },
+              { path: "*", element: <NotFound /> },
             ],
           },
         ]
