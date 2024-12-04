@@ -31,7 +31,6 @@ const CustomToastContainer = styled(ToastContainer)`
 `;
 
 function App() {
-  // localStorage.clear()
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [isLoading, setIsLoading] = useState(true);
 
