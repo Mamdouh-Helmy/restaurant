@@ -3,31 +3,41 @@
   margin: 0;
   box-sizing: border-box;
 }
-label {
-  display: block;
-}
-button {
-  display: block;
-}
-a {
-  display: block;
-  width: fit-content;
-  cursor: pointer;
-}
-
-button,
-input {
-  border: 2px solid #333;
-}
-
 body {
   position: relative;
 }
+button {
+  border: 2px solid #333;
+  display: block;
+}
 
-/* /////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////// */
-
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  /* font-family: swiper-icons; */
+  content: "" !important;
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: 0px !important;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+.swiper-button-prev:after {
+  border-left: 10px solid #ffffff !important;
+  border-top: 10px solid transparent !important;
+  border-right: 10px solid transparent !important;
+  border-bottom: 10px solid transparent !important;
+}
+.swiper-button-next:after {
+  border-left: 10px solid transparent !important;
+  border-top: 10px solid transparent !important;
+  border-right: 10px solid #ffffff !important;
+  border-bottom: 10px solid transparent !important;
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #ffffff !important;
+}
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -141,9 +151,6 @@ div:where(.swal2-container) button:where(.swal2-styled) {
     content: "...";
   }
 }
-.arrow{
+.arrow {
   display: none;
 }
-/* .custom-swal-popup {
-  z-index: 40000 !important; 
-} */
