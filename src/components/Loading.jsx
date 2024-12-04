@@ -16,9 +16,9 @@ const Loading = () => {
 
   return (
     <div className="relative w-full h-[100vh] bg-[#fdfefe]">
-        <div className="flex items-center flex-col">
+        <div className=" absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%] flex items-center flex-col">
           <div>
-            <img src={lodingFood} width="90%" alt="loding" />
+            <img src={lodingFood} alt="loding" />
           </div>
           <div className="loading-text">{currentTexts.loading}</div>
         </div>
