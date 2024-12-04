@@ -12,7 +12,7 @@ export default function Header() {
     <div className="header bg-[#ffffff] fixed w-[100%] z-[900] md:bg-transparent">
       <div className="links flex justify-between py-1 items-center gap-[16px] my-[12px] mx-[30px] md:justify-start md:gap-[20px] md:my-[14px]">
         <div className="contant">
-          <Link to="/profile">
+          <Link to="/restaurant/profile">
             <div
               className="link w-[20px] h-[20px] flex items-center justify-center rounded-full cursor-pointer text-[16px] text-[#585858] duration-[0.3s] 
                 md:w-[40px] md:h-[40px] md:bg-[#ffffff] bg-transparent hover:shadow-lg"
@@ -38,7 +38,7 @@ export default function Header() {
               <FontAwesomeIcon icon={faMagnifyingGlass} />
             </Link>
           </div>
-          <Language/>
+          <Language />
         </div>
       </div>
     </div>

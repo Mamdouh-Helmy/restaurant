@@ -6,6 +6,8 @@ import GoogleSignInButton from "../components/GoogleSignInButton";
 import { useAuth } from "../context/AuthContext";
 import { useLanguage } from "../context/LanguageContext";
 import Language from "../components/Language";
+import ProfilePerson from "../components/ProfilePerson";
+import DeleteAccount from "../components/DeleteAccount";
 
 export default function Profile() {
   const { currentUser } = useAuth();
@@ -41,6 +43,11 @@ export default function Profile() {
         </div>
       </div>
       <hr />
+      {currentUser && (
+        <div className="acounet">
+          <ProfilePerson />
+        </div>
+      )}
       <div className="list">
         <div className="container mx-auto px-4 py-[15px] text-[18px] text-[#66666b] font-bold">
           {currentTexts.list}
@@ -64,6 +71,8 @@ export default function Profile() {
           <FontAwesomeIcon icon={faCartShopping} /> {currentTexts.orders}
         </div>
       </div>
+      <hr />
+      {currentUser && <DeleteAccount />}
       <hr />
       {!currentUser && (
         <>

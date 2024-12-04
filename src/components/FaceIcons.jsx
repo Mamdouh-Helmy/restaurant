@@ -48,7 +48,6 @@ export default function FaceIcons({ Rating }) {
           {iteam}
         </div>
       ))}
-      {/* <p style={{ marginLeft: "20px" }}>Rating: {selected}</p> */}
     </div>
   );
 }

@@ -1,13 +1,11 @@
 import { useState } from "react";
 import { useAuth } from "../context/AuthContext";
-import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { Google } from "../../utils/icons.util";
 import { useLanguage } from "../context/LanguageContext";
 
 const GoogleSignInButton = () => {
   const { loginWithGoogle } = useAuth();
-  const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const { language } = useLanguage();
 
@@ -29,7 +27,6 @@ const GoogleSignInButton = () => {
     setLoading(true);
     try {
       await loginWithGoogle();
-      navigate("/restaurant");
       toast.success("تم تسجيل الدخول بنجاح.");
     } catch {
       toast.error("فشل تسجيل الدخول باستخدام Google.");
