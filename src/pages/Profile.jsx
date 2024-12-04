@@ -54,20 +54,20 @@ export default function Profile() {
         </div>
       </div>
       <hr />
-      <div className="text cursor-pointer duration-[0.3s] hover:bg-[#d4d4d4]">
-        <div className="container text-[16px] select-none mx-auto flex items-center gap-[20px] px-4 py-[15px] text-[#66666b] font-bold">
+      <div className="text cursor-pointer duration-[0.3s] hover:bg-[#e3e3e3]">
+        <div className="container text-[14px] select-none mx-auto flex items-center gap-[20px] px-4 py-[15px] text-[#66666b] font-bold">
           <FontAwesomeIcon icon={faCartShopping} /> {currentTexts.cart}
         </div>
       </div>
       <hr />
-      <div className="text cursor-pointer duration-[0.3s] hover:bg-[#d4d4d4]">
-        <div className="container text-[16px] select-none mx-auto flex items-center gap-[20px] px-4 py-[15px] text-[#66666b] font-bold">
+      <div className="text cursor-pointer duration-[0.3s] hover:bg-[#e3e3e3]">
+        <div className="container text-[14px] select-none mx-auto flex items-center gap-[20px] px-4 py-[15px] text-[#66666b] font-bold">
           <FontAwesomeIcon icon={faBook} /> {currentTexts.list}
         </div>
       </div>
       <hr />
-      <div className="text cursor-pointer duration-[0.3s] hover:bg-[#d4d4d4]">
-        <div className="container text-[16px] select-none mx-auto flex items-center gap-[20px] px-4 py-[15px] text-[#66666b] font-bold">
+      <div className="text cursor-pointer duration-[0.3s] hover:bg-[#e3e3e3]">
+        <div className="container text-[14px] select-none mx-auto flex items-center gap-[20px] px-4 py-[15px] text-[#66666b] font-bold">
           <FontAwesomeIcon icon={faCartShopping} /> {currentTexts.orders}
         </div>
       </div>
@@ -82,7 +82,7 @@ export default function Profile() {
             </div>
           </div>
           <hr />
-          <div className="login-email cursor-pointer duration-[0.3s] hover:bg-[#d4d4d4]">
+          <div className="login-email cursor-pointer duration-[0.3s] hover:bg-[#e3e3e3]">
             <div className="container select-none mx-auto px-4 py-[15px] flex items-center gap-[20px] text-[18px] text-[#66666b] font-bold">
               <Email /> {currentTexts.email}
             </div>

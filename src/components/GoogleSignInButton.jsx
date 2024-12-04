@@ -36,19 +36,19 @@ const GoogleSignInButton = () => {
   };
 
   return (
-    <div className="login-email cursor-pointer duration-[0.3s] hover:bg-[#d4d4d4]">
-      <div className="container select-none mx-auto px-4 py-[15px] flex items-center gap-[20px] text-[18px] text-[#66666b] font-bold">
-        <button
-          type="button"
-          onClick={handleGoogleSignIn}
-          disabled={loading}
-          className="border-none outline-none flex items-center gap-[20px]"
-        >
+    <button
+      type="button"
+      onClick={handleGoogleSignIn}
+      disabled={loading}
+      className="border-none outline-none flex items-center gap-[20px] w-full  login-email cursor-pointer duration-[0.3s] hover:bg-[#e3e3e3]"
+    >
+      <div>
+        <div className="container select-none mx-auto px-4 py-[15px] flex items-center gap-[20px] text-[18px] text-[#66666b] font-bold">
           <Google />
           {loading ? currentTexts.loggingIn : currentTexts.google}
-        </button>
+        </div>
       </div>
-    </div>
+    </button>
   );
 };
 
