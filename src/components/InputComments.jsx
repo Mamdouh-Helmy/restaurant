@@ -10,7 +10,7 @@ export default function InputComments({
   text,
   value,
   check,
-  refValue
+  refValue,
 }) {
   const [phone, setPhone] = useState("");
   const [inputValue, setInputValue] = useState(value || "");
@@ -51,7 +51,7 @@ export default function InputComments({
           style={{ width: w }}
           className={`border-[#9e9f9f] border-[1px] py-[9.6px] px-6 text-[18px] rounded-sm outline-none duration-75 hover:border-[black] focus:border-[1.5px] focus:border-[#657a63] checked:border-[1.1px] checked:border-[#657a63] ${
             type == "button" &&
-            "border-none text-[#ffffff] text-[18px] px-1 w-full flex-1 cursor-pointer"
+            "border-none text-[#ffffff] px-[6px] text-[18px] w-full flex-1 cursor-pointer"
           }`}
         />
       ) : (
@@ -59,9 +59,8 @@ export default function InputComments({
           country={"eg"}
           value={phone}
           inputProps={{
-            ref: refValue, 
+            ref: refValue,
           }}
-
           onChange={(phone) => setPhone(phone)}
           containerStyle={{
             width: w,

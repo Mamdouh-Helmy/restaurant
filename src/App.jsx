@@ -31,6 +31,7 @@ const CustomToastContainer = styled(ToastContainer)`
 `;
 
 function App() {
+  // localStorage.clear()
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -61,7 +62,10 @@ function App() {
           { path: "/restaurant/profile", element: <Profile /> },
           { path: "/restaurant/contact", element: <Contact /> },
           { path: "/restaurant/selectBranch", element: <SelectBranch /> },
-          { path: "/restaurant/branch/:branchName", element: <BranchDetails /> },
+          {
+            path: "/restaurant/branch/:branchName",
+            element: <BranchDetails />,
+          },
           { path: "*", element: <NotFound /> },
         ]
       : [
@@ -72,14 +76,20 @@ function App() {
               { path: "/restaurant/", element: <Home /> },
               { path: "/restaurant/login", element: <Login /> },
               { path: "/restaurant/signup", element: <Signup /> },
-              { path: "/restaurant/forgotpassword", element: <ForgotPassword /> },
+              {
+                path: "/restaurant/forgotpassword",
+                element: <ForgotPassword />,
+              },
               { path: "/restaurant/updateprofile", element: <UpdateProfile /> },
               { path: "/restaurant/cart", element: <Cart /> },
               { path: "/restaurant/favorites", element: <Favorites /> },
               { path: "/restaurant/profile", element: <Profile /> },
               { path: "/restaurant/contact", element: <Contact /> },
               { path: "/restaurant/selectBranch", element: <SelectBranch /> },
-              { path: "/restaurant/branch/:branchName", element: <BranchDetails /> },
+              {
+                path: "/restaurant/branch/:branchName",
+                element: <BranchDetails />,
+              },
               { path: "*", element: <NotFound /> },
             ],
           },

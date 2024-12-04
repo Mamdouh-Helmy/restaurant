@@ -4,7 +4,7 @@ import Language from "./Language";
 export default function HeaderTwoButton({ bg = "#ffffff" }) {
   return (
     <div
-      className={`flex items-center justify-between`}
+      className={`flex py-1 items-center justify-between`}
       style={{ background: `${bg}` }}
     >
       <BackButton />

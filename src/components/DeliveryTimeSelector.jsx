@@ -271,7 +271,7 @@ export default function DeliveryTimeSelector({
                         : currentTexts.title3}
                     </span>
                     <span className="block text-[12px] text-[#b5b6b6]">
-                      {selectedText}
+                      {selectedDate && selectedText}
                     </span>
                   </div>
                 </div>
