@@ -10,7 +10,7 @@ import Language from "./Language";
 export default function Header() {
   return (
     <div className="header bg-[#ffffff] fixed w-[100%] z-[900] md:bg-transparent">
-      <div className="links flex justify-between items-center gap-[16px] my-[12px] mx-[30px] md:justify-start md:gap-[20px] md:my-[14px]">
+      <div className="links flex justify-between py-1 items-center gap-[16px] my-[12px] mx-[30px] md:justify-start md:gap-[20px] md:my-[14px]">
         <div className="contant">
           <Link to="/profile">
             <div

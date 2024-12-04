@@ -94,7 +94,7 @@ function App() {
         <>
           {" "}
           <RouterProvider router={router} />{" "}
-          <div className=" fixed left-0 z-[90000] top-[50%] transform translate-y-[-50%] bg-[#00b950] w-[40px] rounded-sm h-[70px] flex items-center justify-center">
+          <div className=" fixed left-0 z-[90000] top-[50%] transform translate-y-[-50%] bg-[#00b950] w-[30px] rounded-sm h-[60px] flex items-center justify-center">
             <WhatsApp color="#ffffff" />
           </div>
         </>

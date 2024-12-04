@@ -18,7 +18,7 @@ export default function lider() {
           alt="Static Content"
           className="static-image w-full h-full object-cover md:block hidden"
         />
-        <div className="slider md:hidden block pt-[43px]">
+        <div className="slider md:hidden block pt-[55px]">
           <Swiper
             key={language}
             spaceBetween={10}

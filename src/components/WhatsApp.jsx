@@ -13,7 +13,7 @@ export default function WhatsApp({ color }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faWhatsapp} size="xl" style={{ color: color }} />
+        <FontAwesomeIcon icon={faWhatsapp} size="" style={{ color: color }} />
       </a>
     </div>
   );
