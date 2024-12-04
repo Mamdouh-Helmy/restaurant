@@ -23,7 +23,6 @@ export default function ProfilePerson() {
   };
 
   const currentTexts = texts[language];
-  console.log(currentUser);
 
   const handelLogout = async () => {
     setIsLoading(true);
