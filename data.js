@@ -1,10 +1,12 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
 const Category = require('./models/Category'); // استيراد موديل الفئة
 
 // الاتصال بقاعدة البيانات
-mongoose.connect('mongodb://localhost:27017/restaurant');
+mongoose.connect(process.env.MONGO_URI);
+
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

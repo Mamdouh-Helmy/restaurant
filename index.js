@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const http = require("http");
 const mongoose = require("mongoose");
@@ -12,7 +13,8 @@ const server = http.createServer(app);
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb://localhost:27017/restaurant");
+mongoose.connect(process.env.MONGO_URI);
+
 
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
