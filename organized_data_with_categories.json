@@ -1,0 +1,954 @@
+{
+    "categories": [
+        {
+            "id": "1",
+            "name": {
+                "ar": "المقبلات",
+                "en": "Appetizers"
+            },
+            "category_image": "https://i.imgur.com/sQZeLSq.jpeg",
+            "products": [
+                {
+                    "id": "1",
+                    "name": {
+                        "ar": "حمص",
+                        "en": "Hummus"
+                    },
+                    "description": {
+                        "ar": "حمص بالزيت",
+                        "en": "Hummus with olive oil"
+                    },
+                    "price": 1.5,
+                    "product_image": "https://i.imgur.com/d5t7wiv.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "2",
+                    "name": {
+                        "ar": "متبل",
+                        "en": "Mutabbal"
+                    },
+                    "description": {
+                        "ar": "متبل بالباذنجان والطحينة",
+                        "en": "Eggplant and tahini dip"
+                    },
+                    "price": 1.5,
+                    "product_image": "https://i.imgur.com/sQZeLSq.jpeg",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": {
+                "ar": "السلطات",
+                "en": "Salads"
+            },
+            "category_image": "https://i.imgur.com/ImiavFT.jpeg",
+            "products": [
+                {
+                    "id": "3",
+                    "name": {
+                        "ar": "تبولة",
+                        "en": "Taboula"
+                    },
+                    "description": {
+                        "ar": "سلطة تبولة بالبرغل والبقدونس",
+                        "en": "Taboula salad with bulgur and parsley"
+                    },
+                    "price": 1.5,
+                    "product_image": "https://i.imgur.com/fu3Ykfu.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "4",
+                    "name": {
+                        "ar": "فتوش",
+                        "en": "Fattoush"
+                    },
+                    "description": {
+                        "ar": "سلطة فتوش بالخضار والخبز المحمص",
+                        "en": "Fattoush salad with vegetables and toasted bread"
+                    },
+                    "price": 1.5,
+                    "product_image": "https://i.imgur.com/eVc2B7O.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "5",
+                    "name": {
+                        "ar": "سلطة الشمندر",
+                        "en": "Beet Salad"
+                    },
+                    "description": {
+                        "ar": "سلطة الشمندر مع الجبن والمكسرات",
+                        "en": "Beet salad with cheese and nuts"
+                    },
+                    "price": 1.5,
+                    "product_image": "https://i.imgur.com/8cV48oh.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "6",
+                    "name": {
+                        "ar": "سلطة الروب بالخيار",
+                        "en": "Yogurt and Cucumber Salad"
+                    },
+                    "description": {
+                        "ar": "سلطة الروب بالخيار والنعناع",
+                        "en": "Yogurt and cucumber salad with mint"
+                    },
+                    "price": 1.5,
+                    "product_image": "https://i.imgur.com/KJ2UeTN.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "7",
+                    "name": {
+                        "ar": "ناتشوز",
+                        "en": "Nachos"
+                    },
+                    "description": {
+                        "ar": "ناتشوز مع الجبن والهلابينو",
+                        "en": "Nachos with cheese and jalapenos"
+                    },
+                    "price": 1.5,
+                    "product_image": "https://i.imgur.com/ImiavFT.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "8",
+                    "name": {
+                        "ar": "سلطة الجرجير بدبس الرومان",
+                        "en": "Rocket Salad with Pomegranate Molasses"
+                    },
+                    "description": {
+                        "ar": "سلطة الجرجير مع دبس الرمان",
+                        "en": "Rocket salad with pomegranate molasses"
+                    },
+                    "price": 1.5,
+                    "product_image": "https://i.imgur.com/7PCiqnZ.jpeg",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": {
+                "ar": "المعجنات",
+                "en": "Pastry"
+            },
+            "category_image": "https://i.imgur.com/lTW36vq.jpeg",
+            "products": [
+                {
+                    "id": "9",
+                    "name": {
+                        "ar": "كبة برغل 12 حبة",
+                        "en": "Kubbeh Burghul (12 pieces)"
+                    },
+                    "description": {
+                        "ar": "كبة برغل بحشوة اللحم",
+                        "en": "Kubbeh burghul with meat filling"
+                    },
+                    "price": 3.5,
+                    "product_image": "https://i.imgur.com/ktj2eTl.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "10",
+                    "name": {
+                        "ar": "كبة عيش 12 حبة",
+                        "en": "Kubbeh Rice (12 pieces)"
+                    },
+                    "description": {
+                        "ar": "كبة عيش بحشوة اللحم والكشمش",
+                        "en": "Kubbeh rice with meat and currant filling"
+                    },
+                    "price": 3.5,
+                    "product_image": "https://i.imgur.com/ktj2eTl.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "11",
+                    "name": {
+                        "ar": "كبة مشكلة 12 حبة",
+                        "en": "Mixed Kubbeh (12 pieces)"
+                    },
+                    "description": {
+                        "ar": "كبة برغل مع كبة العيش",
+                        "en": "Mixed kubbeh with bulgur and rice"
+                    },
+                    "price": 3.5,
+                    "product_image": "https://i.imgur.com/ktj2eTl.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "12",
+                    "name": {
+                        "ar": "سمبوسة جبن درزن",
+                        "en": "Cheese Samosa (Dozen)"
+                    },
+                    "description": {
+                        "ar": "سمبوسة بالجبن الأبيض",
+                        "en": "Samosa with white cheese"
+                    },
+                    "price": 2.5,
+                    "product_image": "https://i.imgur.com/lTW36vq.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "13",
+                    "name": {
+                        "ar": "سمبوسة خضار درزن",
+                        "en": "Vegetable Samosa (Dozen)"
+                    },
+                    "description": {
+                        "ar": "سمبوسة بالخضار",
+                        "en": "Samosa with vegetables"
+                    },
+                    "price": 2.5,
+                    "product_image": "https://i.imgur.com/lTW36vq.jpeg",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": {
+                "ar": "منتجاتنا المتبلة",
+                "en": "Marinated Products"
+            },
+            "category_image": "https://i.imgur.com/NZeWIQZ.png",
+            "products": [
+                {
+                    "id": "14",
+                    "name": {
+                        "ar": "ماعون عرايس (3 خبز)",
+                        "en": "Arayes (3 Bread)"
+                    },
+                    "description": {
+                        "ar": "عرايس باللحم المشوي",
+                        "en": "Grilled meat arayes"
+                    },
+                    "price": 2.75,
+                    "product_image": "https://i.imgur.com/tvdqQFb.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "15",
+                    "name": {
+                        "ar": "شيش خضار (3 اسياخ)",
+                        "en": "Vegetable Skewers (3 Skewers)"
+                    },
+                    "description": {
+                        "ar": "شيش خضار مشوي",
+                        "en": "Grilled vegetable skewers"
+                    },
+                    "price": 2.25,
+                    "product_image": "https://i.imgur.com/ATjIGk6_d.webp?maxwidth=760&fidelity=grand",
+                    "discount": false
+                },
+                {
+                    "id": "16",
+                    "name": {
+                        "ar": "ماعون شيش طاووق (3 اسياخ)",
+                        "en": "Chicken Skewers (3 Skewers)"
+                    },
+                    "description": {
+                        "ar": "شيش طاووق مشوي",
+                        "en": "Grilled chicken skewers"
+                    },
+                    "price": 3.5,
+                    "product_image": "https://s3.eu-central-1.amazonaws.com/qatar-delicious/ItemsImages/ItemImage_10066_(0).jpg",
+                    "discount": false
+                },
+                {
+                    "id": "17",
+                    "name": {
+                        "ar": "دجاجه كامله متبلة",
+                        "en": "Marinated Whole Chicken"
+                    },
+                    "description": {
+                        "ar": "دجاجة كاملة متبلة ومشوية",
+                        "en": "Marinated and grilled whole chicken"
+                    },
+                    "price": 3.5,
+                    "product_image": "https://i.imgur.com/NZeWIQZ.png",
+                    "discount": false
+                },
+                {
+                    "id": "18",
+                    "name": {
+                        "ar": "٤اسياخ روبيان (16 حبة)",
+                        "en": "4 Shrimp Skewers (16 Pieces)"
+                    },
+                    "description": {
+                        "ar": "روبيان مشوي",
+                        "en": "Grilled shrimp skewers"
+                    },
+                    "price": 6.0,
+                    "product_image": "https://kitchen.sayidaty.net/uploads/small/e6/e6ce1124299ce09237bd6f2e1dbb0e4b_w750_h500.jpg",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": {
+                "ar": "المجمدات",
+                "en": "Frozen Products"
+            },
+            "category_image": "https://i.imgur.com/ktj2eTl.jpeg",
+            "products": [
+                {
+                    "id": "19",
+                    "name": {
+                        "ar": "كبة برغل 50 حبة مجمدة",
+                        "en": "Kubbeh Burghul (50 pieces)"
+                    },
+                    "description": {
+                        "ar": "كبة برغل بحشوة اللحم",
+                        "en": "Kubbeh burghul with meat filling"
+                    },
+                    "price": 10.0,
+                    "product_image": "https://i.imgur.com/ktj2eTl.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "20",
+                    "name": {
+                        "ar": "كبة عيش 50 حبة مجمدة",
+                        "en": "Kubbeh Rice (50 pieces)"
+                    },
+                    "description": {
+                        "ar": "كبة عيش بحشوة اللحم والكشمش",
+                        "en": "Kubbeh rice with meat and currant filling"
+                    },
+                    "price": 10.0,
+                    "product_image": "https://i.imgur.com/ktj2eTl.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "21",
+                    "name": {
+                        "ar": "كبة مشكلة 50 حبة مجمدة",
+                        "en": "Mixed Kubbeh (50 pieces)"
+                    },
+                    "description": {
+                        "ar": "كبة برغل مع كبة العيش",
+                        "en": "Mixed kubbeh with bulgur and rice"
+                    },
+                    "price": 10.0,
+                    "product_image": "https://i.imgur.com/ktj2eTl.jpeg",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": {
+                "ar": "المشويات",
+                "en": "Grills"
+            },
+            "category_image": "https://i.imgur.com/Tm0ijqc.jpeg",
+            "products": [
+                {
+                    "id": "22",
+                    "name": {
+                        "ar": "جاط مشويات مشكلة 4 اشخاص",
+                        "en": "Mixed Grill Tray (4 persons)"
+                    },
+                    "description": {
+                        "ar": "مشويات مشكلة مع الخضار",
+                        "en": "Mixed grill tray with vegetables"
+                    },
+                    "price": 15.0,
+                    "product_image": "https://i.imgur.com/Tm0ijqc.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "23",
+                    "name": {
+                        "ar": "ماعون كباب لحم 3 اسياخ",
+                        "en": "Meat Kebab (3 Skewers)"
+                    },
+                    "description": {
+                        "ar": "كباب لحم مشوي",
+                        "en": "Grilled meat kebab"
+                    },
+                    "price": 3.75,
+                    "product_image": "https://i.imgur.com/aaSORwT.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "24",
+                    "name": {
+                        "ar": "ماعون كباب لحم 4 اسياخ",
+                        "en": "Meat Kebab (4 Skewers)"
+                    },
+                    "description": {
+                        "ar": "كباب لحم مشوي",
+                        "en": "Grilled meat kebab"
+                    },
+                    "price": 4.25,
+                    "product_image": "https://i.imgur.com/JKgfoXk.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "25",
+                    "name": {
+                        "ar": "ماعون شيش طاووق 3 اسياخ",
+                        "en": "Chicken Skewers (3 Skewers)"
+                    },
+                    "description": {
+                        "ar": "شيش طاووق مشوي",
+                        "en": "Grilled chicken skewers"
+                    },
+                    "price": 3.75,
+                    "product_image": "https://modo3.com/thumbs/fit630x300/880/1348641733/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%B9%D9%85%D9%84_%D8%B4%D9%8A%D8%B4_%D8%B7%D8%A7%D9%88%D9%88%D9%82.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "26",
+                    "name": {
+                        "ar": "ماعون شيش طاووق 4 اسياخ",
+                        "en": "Chicken Skewers (4 Skewers)"
+                    },
+                    "description": {
+                        "ar": "شيش طاووق مشوي",
+                        "en": "Grilled chicken skewers"
+                    },
+                    "price": 4.5,
+                    "product_image": "https://modo3.com/thumbs/fit630x300/880/1348641733/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%B9%D9%85%D9%84_%D8%B4%D9%8A%D8%B4_%D8%B7%D8%A7%D9%88%D9%88%D9%82.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "27",
+                    "name": {
+                        "ar": "نص دجاج علي الفحم",
+                        "en": "Half Chicken on Coal"
+                    },
+                    "description": {
+                        "ar": "نص دجاجة مشوية على الفحم",
+                        "en": "Half chicken grilled on coal"
+                    },
+                    "price": 3.0,
+                    "product_image": "https://i.imgur.com/MufTIcY.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "28",
+                    "name": {
+                        "ar": "دجاجة علي الفحم 2 شخص",
+                        "en": "Whole Chicken on Coal (2 persons)"
+                    },
+                    "description": {
+                        "ar": "دجاجة كاملة مشوية على الفحم",
+                        "en": "Whole chicken grilled on coal"
+                    },
+                    "price": 4.0,
+                    "product_image": "https://i.imgur.com/vXqBgsl.jpeg",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": {
+                "ar": "المأكولات الكويتية",
+                "en": "Kuwaiti Cuisine"
+            },
+            "category_image": "https://i.imgur.com/s3ZMh4Q.jpeg",
+            "products": [
+                {
+                    "id": "29",
+                    "name": {
+                        "ar": "مجبوس لحم 1 شخص",
+                        "en": "Meat Machboos (1 person)"
+                    },
+                    "description": {
+                        "ar": "مجبوس لحم مع الأرز والتوابل",
+                        "en": "Meat machboos with rice and spices"
+                    },
+                    "price": 5.0,
+                    "product_image": "https://i.imgur.com/RGHtCTJ.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "30",
+                    "name": {
+                        "ar": "مجبوس لحم 4 اشخاص",
+                        "en": "Meat Machboos (4 persons)"
+                    },
+                    "description": {
+                        "ar": "مجبوس لحم مع الأرز والتوابل",
+                        "en": "Meat machboos with rice and spices"
+                    },
+                    "price": 16.0,
+                    "product_image": "https://i.imgur.com/s3ZMh4Q.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "31",
+                    "name": {
+                        "ar": "مجبوس دجاج 2 شخص",
+                        "en": "Chicken Machboos (2 persons)"
+                    },
+                    "description": {
+                        "ar": "مجبوس دجاج مع الأرز والتوابل",
+                        "en": "Chicken machboos with rice and spices"
+                    },
+                    "price": 6.0,
+                    "product_image": "https://i.imgur.com/opnB9Je.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "32",
+                    "name": {
+                        "ar": "مجبوس دجاج 1 شخص",
+                        "en": "Chicken Machboos (1 person)"
+                    },
+                    "description": {
+                        "ar": "مجبوس دجاج مع الأرز والتوابل",
+                        "en": "Chicken machboos with rice and spices"
+                    },
+                    "price": 3.99,
+                    "product_image": "https://i.imgur.com/gugATAM.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "33",
+                    "name": {
+                        "ar": "مجبوس دجاج 2 شخص VIP",
+                        "en": "Chicken Machboos VIP (2 persons)"
+                    },
+                    "description": {
+                        "ar": "مجبوس دجاج مع الأرز والتوابل",
+                        "en": "Chicken machboos with rice and spices"
+                    },
+                    "price": 6.0,
+                    "product_image": "https://i.imgur.com/opnB9Je.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "34",
+                    "name": {
+                        "ar": "مجبوس دجاج 3 اشخاص",
+                        "en": "Chicken Machboos (3 persons)"
+                    },
+                    "description": {
+                        "ar": "مجبوس دجاج مع الأرز والتوابل",
+                        "en": "Chicken machboos with rice and spices"
+                    },
+                    "price": 10.0,
+                    "product_image": "https://i.imgur.com/ILjbwWR.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "35",
+                    "name": {
+                        "ar": "مجبوس دجاج 4 اشخاص",
+                        "en": "Chicken Machboos (4 persons)"
+                    },
+                    "description": {
+                        "ar": "مجبوس دجاج مع الأرز والتوابل",
+                        "en": "Chicken machboos with rice and spices"
+                    },
+                    "price": 12.0,
+                    "product_image": "https://i.imgur.com/sxsUIFn.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "36",
+                    "name": {
+                        "ar": "مجبوس دجاج 6 اشخاص",
+                        "en": "Chicken Machboos (6 persons)"
+                    },
+                    "description": {
+                        "ar": "مجبوس دجاج مع الأرز والتوابل",
+                        "en": "Chicken machboos with rice and spices"
+                    },
+                    "price": 16.5,
+                    "product_image": "https://i.imgur.com/AzFuoFD.jpeg",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": {
+                "ar": "المأكولات المصرية",
+                "en": "Egyptian Cuisine"
+            },
+            "category_image": "https://img.youm7.com/ArticleImgs/2024/5/1/65644-%D8%B7%D8%A7%D8%AC%D9%86-%D8%A7%D9%84%D8%B9%D9%83%D8%A7%D9%88%D9%8A.jpg",
+            "products": [
+                {
+                    "id": "37",
+                    "name": {
+                        "ar": "طاجن بامية باللحمة",
+                        "en": "Okra Stew with Meat"
+                    },
+                    "description": {
+                        "ar": "طاجن بامية مع اللحمة والأرز",
+                        "en": "Okra stew with meat and rice"
+                    },
+                    "price": 4.99,
+                    "product_image": "https://news.elsob7.com/wp-content/uploads/2023/12/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%B9%D9%85%D9%84-%D8%B7%D8%A7%D8%AC%D9%86-%D8%A7%D9%84%D8%A8%D8%A7%D9%85%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%84%D8%AD%D9%85%D8%A9.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "38",
+                    "name": {
+                        "ar": "طاجن بطاطس باللحمة",
+                        "en": "Potato Stew with Meat"
+                    },
+                    "description": {
+                        "ar": "طاجن بطاطس مع اللحمة والأرز",
+                        "en": "Potato stew with meat and rice"
+                    },
+                    "price": 4.99,
+                    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTjlqaCtlRBeuXYRMBtVqhNE-TA3QA2LSUQw&s",
+                    "discount": false
+                },
+                {
+                    "id": "39",
+                    "name": {
+                        "ar": "طاجن عكاوى",
+                        "en": "Akkawi Stew"
+                    },
+                    "description": {
+                        "ar": "طاجن عكاوى مع اللحمة والأرز",
+                        "en": "Akkawi stew with meat and rice"
+                    },
+                    "price": 4.99,
+                    "product_image": "https://img.youm7.com/ArticleImgs/2024/5/1/65644-%D8%B7%D8%A7%D8%AC%D9%86-%D8%A7%D9%84%D8%B9%D9%83%D8%A7%D9%88%D9%8A.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "40",
+                    "name": {
+                        "ar": "حمام محشي ارز او فريك",
+                        "en": "Stuffed Pigeon with Rice or Freekeh"
+                    },
+                    "description": {
+                        "ar": "حمام محشي مع الأرز أو الفريك",
+                        "en": "Stuffed pigeon with rice or freekeh"
+                    },
+                    "price": 6.0,
+                    "product_image": "https://img-global.cpcdn.com/recipes/c42f3582d0abf32c/400x400cq70/photo.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "41",
+                    "name": {
+                        "ar": "كبدة اسكندراني 1 شخص",
+                        "en": "Alexandrian Liver (1 person)"
+                    },
+                    "description": {
+                        "ar": "كبدة اسكندراني مع الخبز والطحينة",
+                        "en": "Alexandrian liver with bread and tahini"
+                    },
+                    "price": 3.0,
+                    "product_image": "https://www.almowaten.net/wp-content/uploads/2020/11/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D9%83%D8%A8%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D8%A7%D9%86%D9%8A.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "42",
+                    "name": {
+                        "ar": "وجبة بط مصري",
+                        "en": "Egyptian Duck Meal"
+                    },
+                    "description": {
+                        "ar": "ربع بطة مع الأرز والشوربة",
+                        "en": "Quarter duck with rice and soup"
+                    },
+                    "price": 4.75,
+                    "product_image": "https://kitchen.sayidaty.net/uploads/small/7c/7ce62290c345e2b419b93501ea27e014_w750_h500.jpg",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": {
+                "ar": "الباستا",
+                "en": "Pasta"
+            },
+            "category_image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/3/21/0/fnd_pasta-istock.jpg.rend.hgtvcom.616.462.suffix/1490188710731.jpeg",
+            "products": [
+                {
+                    "id": "43",
+                    "name": {
+                        "ar": "معكرونه بشاميل 8 اشخاص",
+                        "en": "Bechamel Pasta (8 persons)"
+                    },
+                    "description": {
+                        "ar": "معكرونة بالبشاميل واللحم",
+                        "en": "Pasta with bechamel sauce and meat"
+                    },
+                    "price": 8.0,
+                    "product_image": "https://kitchen.sayidaty.net/uploads/small/93/930691054808c395a327489de47e2815_w750_h500.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "44",
+                    "name": {
+                        "ar": "نودلز خضار 4 اشخاص",
+                        "en": "Vegetable Noodles (4 persons)"
+                    },
+                    "description": {
+                        "ar": "نودلز بالخضار",
+                        "en": "Noodles with vegetables"
+                    },
+                    "price": 6.0,
+                    "product_image": "https://i.imgur.com/JLYC6NU.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "45",
+                    "name": {
+                        "ar": "معكرونة الطيبيين (لحم - خضار) 3 اشخاص",
+                        "en": "Tayebi Pasta (Meat - Vegetables) (3 persons)"
+                    },
+                    "description": {
+                        "ar": "معكرونة باللحم والخضار",
+                        "en": "Pasta with meat and vegetables"
+                    },
+                    "price": 6.0,
+                    "product_image": "https://i.imgur.com/Jl4zJsf.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "46",
+                    "name": {
+                        "ar": "معكرونة الطيبيين (لحم - خضار) 5 اشخاص",
+                        "en": "Tayebi Pasta (Meat - Vegetables) (5 persons)"
+                    },
+                    "description": {
+                        "ar": "معكرونة باللحم والخضار",
+                        "en": "Pasta with meat and vegetables"
+                    },
+                    "price": 8.0,
+                    "product_image": "https://i.imgur.com/Jl4zJsf.jpeg",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": {
+                "ar": "الأسماك",
+                "en": "Fish"
+            },
+            "category_image": "https://i.imgur.com/0bHzLZS.jpeg",
+            "products": [
+                {
+                    "id": "47",
+                    "name": {
+                        "ar": "مطبق زبيدى 1 شخص",
+                        "en": "Zubaidi Fish (1 person)"
+                    },
+                    "description": {
+                        "ar": "مطبق زبيدى مع الأرز والصلصة",
+                        "en": "Zubaidi fish with rice and sauce"
+                    },
+                    "price": 8.0,
+                    "product_image": "https://i.imgur.com/uoGOxYX.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "48",
+                    "name": {
+                        "ar": "مطبق زبيدى 3 شخص",
+                        "en": "Zubaidi Fish (3 persons)"
+                    },
+                    "description": {
+                        "ar": "مطبق زبيدى مع الأرز والصلصة",
+                        "en": "Zubaidi fish with rice and sauce"
+                    },
+                    "price": 22.0,
+                    "product_image": "https://i.imgur.com/uoGOxYX.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "49",
+                    "name": {
+                        "ar": "مطبق زبيدى 4 شخص",
+                        "en": "Zubaidi Fish (4 persons)"
+                    },
+                    "description": {
+                        "ar": "مطبق زبيدى مع الأرز والصلصة",
+                        "en": "Zubaidi fish with rice and sauce"
+                    },
+                    "price": 25.0,
+                    "product_image": "https://i.imgur.com/0bHzLZS.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "50",
+                    "name": {
+                        "ar": "مطبق زبيدى مع حشو ربيان 1 شخص",
+                        "en": "Zubaidi Fish with Shrimp (1 person)"
+                    },
+                    "description": {
+                        "ar": "مطبق زبيدى مع حشو الروبيان",
+                        "en": "Zubaidi fish with shrimp filling"
+                    },
+                    "price": 9.0,
+                    "product_image": "https://b.zmtcdn.com/data/pictures/chains/0/19349480/24121bb0d47e8f9a18f89b65859829cd.jpeg",
+                    "discount": false
+                },
+                {
+                    "id": "51",
+                    "name": {
+                        "ar": "مطبق زبيدى مع حشو ربيان 3 اشخاص",
+                        "en": "Zubaidi Fish with Shrimp (3 persons)"
+                    },
+                    "description": {
+                        "ar": "مطبق زبيدى مع حشو الروبيان",
+                        "en": "Zubaidi fish with shrimp filling"
+                    },
+                    "price": 25.0,
+                    "product_image": "https://foodwithshayne.files.wordpress.com/2020/11/shp07922.jpg?w=768",
+                    "discount": false
+                },
+                {
+                    "id": "52",
+                    "name": {
+                        "ar": "مطبق زبيدى مع حشو ربيان 4 اشخاص",
+                        "en": "Zubaidi Fish with Shrimp (4 persons)"
+                    },
+                    "description": {
+                        "ar": "مطبق زبيدى مع حشو الروبيان",
+                        "en": "Zubaidi fish with shrimp filling"
+                    },
+                    "price": 24.0,
+                    "product_image": "https://foodwithshayne.files.wordpress.com/2020/11/shp07922.jpg?w=768",
+                    "discount": false
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": {
+                "ar": "إضافات",
+                "en": "Extras"
+            },
+            "category_image": "https://img.freepik.com/premium-photo/top-down-food-photograph-freshly-made-falafel_927498-1143.jpg?w=2000",
+            "products": [
+                {
+                    "id": "53",
+                    "name": {
+                        "ar": "بيبسي",
+                        "en": "Pepsi"
+                    },
+                    "description": {
+                        "ar": "مشروب غازي",
+                        "en": "Carbonated drink"
+                    },
+                    "price": 0.25,
+                    "product_image": "https://th.bing.com/th/id/R.9ac0043428ff53d8f2e6b30ff08b3d96?rik=HSX7Jed76IAAXQ&pid=ImgRaw&r=0",
+                    "discount": false
+                },
+                {
+                    "id": "54",
+                    "name": {
+                        "ar": "مياة",
+                        "en": "Water"
+                    },
+                    "description": {
+                        "ar": "مياه معدنية",
+                        "en": "Mineral water"
+                    },
+                    "price": 0.25,
+                    "product_image": "https://img.lovepik.com/desgin_photo/40083/6838_detail.jpg!wh650",
+                    "discount": false
+                },
+                {
+                    "id": "55",
+                    "name": {
+                        "ar": "عصير",
+                        "en": "Juice"
+                    },
+                    "description": {
+                        "ar": "عصير فواكه",
+                        "en": "Fruit juice"
+                    },
+                    "price": 0.25,
+                    "product_image": "https://png.pngtree.com/back_origin_pic/00/14/37/cfbc50d1bf13dde3043b0568e4014d96.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "56",
+                    "name": {
+                        "ar": "معبوش",
+                        "en": "Pickles"
+                    },
+                    "description": {
+                        "ar": "مخللات",
+                        "en": "Pickles"
+                    },
+                    "price": 0.25,
+                    "product_image": "https://png.pngtree.com/thumb_back/fw800/background/20230407/pngtree-set-of-pickles-from-tomato-photo-image_2273761.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "57",
+                    "name": {
+                        "ar": "بطاط صغير",
+                        "en": "Small Fries"
+                    },
+                    "description": {
+                        "ar": "بطاطس مقلية",
+                        "en": "French fries"
+                    },
+                    "price": 0.5,
+                    "product_image": "https://media.gemini.media/img/large/2020/6/25/2020_6_25_19_6_2_421.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "58",
+                    "name": {
+                        "ar": "بطاط كبير",
+                        "en": "Large Fries"
+                    },
+                    "description": {
+                        "ar": "بطاطس مقلية",
+                        "en": "French fries"
+                    },
+                    "price": 0.75,
+                    "product_image": "https://media.gemini.media/img/large/2020/6/25/2020_6_25_19_6_2_421.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "59",
+                    "name": {
+                        "ar": "طرشي",
+                        "en": "Torshi"
+                    },
+                    "description": {
+                        "ar": "مخللات",
+                        "en": "Pickles"
+                    },
+                    "price": 0.2,
+                    "product_image": "https://samadaliraqirestaurant.com.my/wp-content/uploads/2022/07/%D8%B7%D8%B1%D8%B4%D9%8A-%D8%B9%D8%B1%D8%A7%D9%82%D9%8A.jpg",
+                    "discount": false
+                },
+                {
+                    "id": "60",
+                    "name": {
+                        "ar": "مرق",
+                        "en": "Broth"
+                    },
+                    "description": {
+                        "ar": "مرق اللحم",
+                        "en": "Meat broth"
+                    },
+                    "price": 0.3,
+                    "product_image": "https://kitchen.sayidaty.net/uploads/small/c7/c70912567ec66ead817baed4d881aea4_w750_h500.jpg",
+                    "discount": false
+                }
+            ]
+        }
+    ]
+}
